@@ -1,0 +1,57 @@
+MARUTI KAMESHWARMODALICollege Park, MD (Ready to relocate)
++1 240-501-7790
+marutikameshwar1@gmail.com
+linkedin.com/in/maruti-kameshwar-modali
+github.com/marutikameshwar
+SUMMARY
+Software Engineer with over 1.5 years of experience architecting scalable enterprise applications and end-to-end AI/ML
+solutions. Expert in bridging the gap between backend development and Machine Learning, with a focus on Large
+Language Models (LLMs), RAG pipelines, and MLOps. Proven track record of deploying high-impact intelligent systems
+via CI/CD and AWS, delivering production-ready code in fast-paced Agile environments.
+EXPERIENCE
+Bajaj Finserv Direct Ltd Pune, India
+Software Engineer Jul 2023 - Aug 2024
+• Re-engineered a normalizedPostgreSQLdatabase architecture and indexing strategy for a high-volume fintech plat-
+form to optimize data retrieval, achieving a40% improvement in query performance.
+• Engineered a real-timeJava analytics dashboardwith integrated JPA/Hibernate to automate tracking of application
+approval trends,reducing manual stakeholder reporting effort by 30%.
+• ConductedA/B testingon competing user onboarding flows to identify and eliminate friction points in the registration
+process, resulting in a15% increase in user conversion.
+Bajaj Finserv Direct Ltd Pune, India
+Software Engineer Intern Jan 2023 - Jun 2023
+• Built an asynchronous rapid onboarding pipeline usingJava Spring BootandAWS SQS/SNSto handle high-velocity
+customer data ingestion, successfullyreducing total onboarding latency by 60%.
+• Partnered with Product Owners in anAgile sprintto architect aBulk Upload feature via AWS S3, streamlining
+multi-user data processing andeliminating 95% of manual data entry errors.
+• Streamlined the deployment lifecycle by resolving 450+ technical debt issues and maintaining 90% JUnit coverage,
+leveragingCI/CD pipelinesto ensure99.9% system uptimefor data-critical services.
+PROJECTS
+Phishing Website Detection Pipeline–Python, Airflow, MLflow, AWS, Docker GitHub↗
+• Architected an automatedMLOps pipelineusingAirflowandMLflowto evaluateSVM, Logistic Regression, and
+Gradient Boosting, streamlining feature selection to achieve an0.98 F1-scoreand eliminate training bottlenecks.
+• Engineered a robustCI/CD workflowviaGitHub ActionsandDockerfor deployment toAWS EC2, enablingreal-
+time inferenceand ensuring seamless production updates with minimal deployment overhead.
+Multi-Agent RAG Pipeline with Dynamic Routing–LangGraph, Python, Hugging Face, ChromaDB, Groq GitHub↗
+• Orchestrated amulti-agent frameworkusingLangGraphto route queries between private data and public search,
+overcoming static LLM limits via specialized agents to ensurehigh response accuracy.
+• Developed a retrieval engine usingHugging FaceandChromaDBfor persistent memory, achievinghigh-speed
+retrievaland improved contextual awareness for complex private data queries.
+Natural Language SQL (Text-to-SQL) Agent–LangChain, LangSmith, Llama-3, Groq GitHub↗
+• Designed aRAG-based SQL agentviaLangChainfor aStudent Database, optimizing query accuracy through
+systematicLangSmithtracing and reasoning analysis for non-technical users.
+• IntegratedLlama-3 (Groq)for low-latency streaming inference to create an "instant-reply" experience,significantly
+reducing query latencyand allowing for real-time analytics without manual SQL intervention.
+EDUCATION
+University of Maryland College Park, MD
+May 2026 Master of Science in Data Science; GPA: 3.92/4.0
+Vellore Institute of TechnologyAndhra Pradesh, India
+Aug 2019 - Jul 2023 Bachelor of Technology in Computer Science; GPA: 8.65/10.0
+TECHNICALSKILLS
+AI & Generative AILangChain, LangGraph, LangSmith, RAG, AWS Bedrock, MCP , Neo4j, Mistral-7B, Groq, Ol-
+lama, ChatGpt, LoRA & QLoRA Fine-tuning, ChatGPT
+ML & Data SciencePyTorch, TensorFlow, Scikit-Learn, Hugging Face, NLTK, NumPy, Pandas, Matlab, R, Tableau,
+Matplotlib, Seaborn
+MLOps & CloudMLflow, Airflow, Docker, GitHub Actions, AWS (EC2, S3, Lambda), Linux, Jenkins
+Software EngineeringJava, Spring Boot, Flask, JPA Hibernate, JUnit, SQL (MySQL), MongoDB, HTML/CSS, Git
+Software Engineering, Data Science, Machine Learning Engineer, AI Architect, GenAI, LLM, RAG, MLOps, n8n, CrewAI, AutoGPT, LangChain, LangGraph, LangSmith, LlamaIndex, Agentic AI, Tool Use, Graph Data Structures, Neo4j, Cypher, Amazon Neptune, Azure Cosmos DB, Graph Neural Networks, GNN, Knowledge Graphs, Network Science, Centrality, BFS, DFS, Dijkstra, A* Search, Dynamic Programming, AWS, EC2, S3, Lambda, SageMaker, Bedrock, Redshift, DynamoDB, RDS, IAM, VPC, ECS, EKS, Glue, Athena, Azure, Azure ML, Cognitive Services, Azure OpenAI, Blob Storage, Synapse, Data Factory, AKS, GCP , Vertex AI, BigQuery, GCS, Cloud Run, GKE, Pub/Sub, Dataflow, Looker, Anthos, Hadoop, HDFS, MapReduce, Hive, Spark, Kafka, Flink, Airflow, Snowflake, Databricks, Statistical Modeling, Linear Algebra, Calculus, Optimization, Convex Optimization, Gradient Descent, Stochastic Processes, Monte Carlo, Bayesian Networks, Hidden Markov Models, HMM, Deep Learning, CNN, RNN, LSTM, Transformers, BERT, T5, ViT, GPT -4o, Llama-3.1, Claude 3.5, Fine-tuning, LoRA, QLoRA, Quantization, Pruning, Knowledge Distillation, Vector Search, Pinecone,
+Milvus, ChromaDB, Weaviate, Faiss, ElasticSearch, Solr, Kubernetes, Docker, CI/CD, GitHub Actions, Jenkins, Terraform, Ansible, Pulumi, API Design, REST, GraphQL, gRPC, Microservices, System Design, Scalability, High Availability, FinTech, Banking, Credit Scoring, Fraud Detection, Risk Management, Quantitative Analysis, HealthTech, Bioinformatics, HIPAA, GDPR, SOC2, Data Privacy, Cybersecurity, Encryption, Soft Skills, Leadership, Mentoring, Stakeholder Management, Agile, Scrum, Kanban, Jira, Python, Java, C++, Go, Rust, Scala, SQL, NoSQL, TypeScript, React, Node.js, Spring Boot, Flask, FastAPI, Django, Hibernate, JPA, PyTest, JUnit, Selenium, Data Visualization, Tableau, PowerBI, D3.js, Matplotlib, Seaborn, Plotly, Data Engineering, Data Governance, Feature Store, Model Registry, Weights and Biases.

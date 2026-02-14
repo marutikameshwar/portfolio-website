@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maruti.Dev | SYSTEM_ONLINE</title>
+
+    <!-- Anime/Cyber Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Kosugi+Maru&family=Russo+One&family=Share+Tech+Mono&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Background Decor -->
+    <div class="fixed-bg"></div>
+    <div class="noise-overlay"></div>
+
+    <!-- CURSOR -->
+    <div class="cyber-cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <!-- Navigation (HUD Style) -->
+    <nav class="hud-nav">
+        <div class="hud-logo">MK_MODALI<span class="blink">_</span></div>
+        <div class="hud-links">
+            <a href="#hero" class="hud-link" data-text="START">START</a>
+            <a href="#about" class="hud-link" data-text="PROFILE">PROFILE</a>
+            <a href="#projects" class="hud-link" data-text="MISSIONS">MISSIONS</a>
+            <a href="#experience" class="hud-link" data-text="HISTORY">HISTORY</a>
+            <a href="#transmission" class="hud-link special-link" data-text="TRANSMIT 📡">TRANSMIT 📡</a>
+            <!-- <a href="#contact" class="hud-link" data-text="SIGNAL">SIGNAL</a> -->
+        </div>
+
+        <!-- RESUME DOWNLOAD -->
+        <div class="resume-container">
+            <button class="resume-btn" onclick="initiateDownload(this)">
+                <i class="fas fa-file-download icon"></i>
+                <span class="text">RESUME</span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- SECTION 1: HERO (THE AWAKENING) -->
+    <header id="hero" class="cyber-section full-height hero-section">
+        <div class="hero-container">
+            <div class="glitch-wrapper">
+                <h1 class="glitch" data-text="MARUTI KAMESHWAR">MARUTI KAMESHWAR</h1>
+            </div>
+            <div class="subtitle-box">
+                <span class="bracket">[</span> <span id="role-text">AI ARCHITECT</span> <span class="bracket">]</span>
+                <span class="lang-text" id="lang-text">एआई आर्किटेक्ट</span>
+            </div>
+            <p class="mission-brief">
+                <span class="bracket">[</span> <span class="status-label">SYSTEM STATUS:</span> <span
+                    class="status-online">ONLINE</span> <span class="bracket">]</span><br>
+                <span class="highlight-text">All-rounder in the intelligent systems space</span>, operating at the
+                intersection of
+                <span class="tech-highlight">Software Engineering</span>,
+                <span class="tech-highlight">Data Science</span>, and
+                <span class="tech-highlight">AI/ML</span>.
+            </p>
+            <p class="mission-brief secondary">
+                <span class="terminal-prompt">></span> Expertise in building <strong>end-to-end pipelines</strong> that
+                bridge the gap between rigorous mathematical modeling and scalable, production-ready architecture.
+            </p>
+            <p class="mission-brief secondary">
+                <span class="terminal-prompt">></span> This portfolio is an <strong>active technical log</strong>—moving
+                beyond the resume to showcase the system design and logic behind <span
+                    class="highlight-text">multi-agent RAG frameworks</span> and <span class="highlight-text">complex
+                    SQL orchestrations</span>.
+            </p>
+            <p class="mission-brief secondary">
+                <span class="terminal-prompt">></span> Every project is a deep-dive into <strong>engineering
+                    excellence</strong>: from advanced research prototypes to refined, full-stack solutions.
+            </p>
+            <p class="mission-brief footer">
+                <span class="bracket">[</span> Explore the builds • Analyze the architecture • See the engineering
+                mindset behind a <span class="gpa-highlight">3.92 GPA</span> foundation <span class="bracket">]</span>
+            </p>
+        </div>
+        <!-- Decorative Elements -->
+        <div class="cyber-grid"></div>
+        <div class="cyber-particles"></div>
+        <div class="warning-tape">KEEP OUT // AUTHORIZED PERSONNEL ONLY // KEEP OUT</div>
+    </header>
+
+    <!-- SECTION 2: ABOUT (THE PILOT) -->
+    <section id="about" class="cyber-section angled-section">
+        <div class="content-wrapper">
+            <h2 class="section-header">
+                01 <span class="slash">//</span> PILOT PROFILE
+            </h2>
+            <div class="profile-card">
+                <div class="profile-visual">
+                    <img src="maruti@umd.edu-38d8c255.jpg" alt="Maruti Kameshwar" class="profile-photo">
+                    <div class="stats-box">
+                        <div class="stat neon-stat">SKILLS: <span class="val">100</span></div>
+                        <div class="stat neon-stat">TALENT: <span class="val">100</span></div>
+                        <div class="stat neon-stat">CREATIVITY: <span class="val">100</span></div>
+                        <div class="stat neon-stat highlight-stat">OVERALL PERSON: <span class="val">200</span></div>
+                    </div>
+                </div>
+                <div class="profile-data">
+                    <h3>DATA_LOG:</h3>
+                    <p>
+                        Currently pursuing a <strong>Master of Science in Data Science</strong> at the <strong
+                            class="highlight">University of Maryland, College Park</strong> (GPA: 3.92/4.0).
+                        Previously a Software Engineer at <strong class="highlight">Bajaj Finserv</strong> (Pune,
+                        India).
+                    <p>
+                        Proven track record of deploying high-impact intelligent systems via CI/CD and AWS.
+                        Focus on Large Language Models (LLMs), RAG pipelines, and MLOps.
+                    </p>
+                    <p>
+                        <strong class="highlight">Beyond the Code:</strong> Building connections as a Student Server at
+                        UMD—mastering the art of service, networking with diverse communities, and turning every
+                        interaction into an opportunity to learn and grow. 🤝
+                    </p>
+
+                    <!-- OPS PANEL (Tabbed Interface) -->
+                    <div class="ops-panel">
+                        <div class="ops-header">
+                            <div class="ops-title">SYSTEM_CAPABILITIES::V4.0</div>
+                            <div class="ops-status"><span class="blink">●</span> ONLINE</div>
+                        </div>
+
+                        <div class="ops-body">
+                            <!-- Tabs -->
+                            <div class="ops-tabs">
+                                <button class="ops-tab active" data-target="ai-core">AI & GEN AI</button>
+                                <button class="ops-tab" data-target="ml-ds">ML & DATA SCIENCE</button>
+                                <button class="ops-tab" data-target="mlops-cloud">MLOPS & CLOUD</button>
+                                <button class="ops-tab" data-target="swe">SOFTWARE ENG</button>
+                                <button class="ops-tab easter-egg-tab" data-target="personality"
+                                    title="Click me! 🎉">?</button>
+                            </div>
+
+                            <!-- Content Screen -->
+                            <div class="ops-screen">
+                                <!-- AI & GEN AI -->
+                                <div class="ops-content active" id="ai-core">
+                                    <div class="skill-tags">
+                                        <span>LANGCHAIN</span><span>LANGGRAPH</span><span>LANGSMITH</span><span>RAG</span>
+                                        <span>AWS
+                                            BEDROCK</span><span>MCP</span><span>NEO4J</span><span>MISTRAL-7B</span>
+                                        <span>GROQ</span><span>OLLAMA</span><span>CHATGPT</span><span>LORA & QLORA
+                                            FINE-TUNING</span>
+                                    </div>
+                                </div>
+
+                                <!-- ML & DATA SCIENCE -->
+                                <!-- ML & DATA SCIENCE -->
+                                <div class="ops-content" id="ml-ds">
+                                    <div class="skill-tags">
+                                        <span>PYTORCH</span><span>TENSORFLOW</span><span>SCIKIT-LEARN</span><span>HUGGING
+                                            FACE</span>
+                                        <span>NLTK</span><span>NUMPY</span><span>PANDAS</span><span>MATLAB</span>
+                                        <span>R</span><span>TABLEAU</span><span>MATPLOTLIB</span><span>SEABORN</span>
+                                        <!-- Statistical Models -->
+                                        <span>STATISTICAL MODELING</span><span>A/B TESTING</span><span>HYPOTHESIS
+                                            TESTING</span>
+                                        <span>REGRESSION ANALYSIS</span><span>TIME SERIES
+                                            (ARIMA)</span><span>PCA</span><span>BAYESIAN INFERENCE</span>
+                                    </div>
+                                </div>
+
+                                <!-- MLOPS & CLOUD -->
+                                <div class="ops-content" id="mlops-cloud">
+                                    <div class="skill-tags">
+                                        <span>MLFLOW</span><span>AIRFLOW</span><span>DOCKER</span><span>GITHUB
+                                            ACTIONS</span>
+                                        <span>AWS (EC2, S3, LAMBDA)</span><span>LINUX</span><span>JENKINS</span>
+                                    </div>
+                                </div>
+
+                                <!-- SOFTWARE ENG -->
+                                <div class="ops-content" id="swe">
+                                    <div class="skill-tags">
+                                        <span>JAVA</span><span>SPRING BOOT</span><span>FLASK</span><span>JPA
+                                            HIBERNATE</span>
+                                        <span>JUNIT</span><span>SQL
+                                            (MYSQL)</span><span>MONGODB</span><span>HTML/CSS</span>
+                                        <span>GIT</span>
+                                    </div>
+                                </div>
+
+                                <!-- EASTER EGG: PERSONALITY -->
+                                <div class="ops-content" id="personality">
+                                    <div class="skill-tags">
+                                        <span>FUN LOVING</span><span>TEAM PLAYER</span><span>QUICK LEARNER</span>
+                                        <span>CREATIVE THINKER</span><span>PROBLEM SOLVER</span>
+                                        <span>COFFEE ENTHUSIAST ☕</span><span>ALWAYS CURIOUS</span>
+                                        <span>MOVIES & SERIES LOVER 🎬</span><span>HANDSOME AF 😎</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 3: ARSENAL (SCROLLING MARQUEE) -->
+    <div class="marquee-section">
+        <div class="marquee-track">
+            <div class="marquee-content">
+                LANGCHAIN • LANGGRAPH • RAG • AWS • NEO4J • GROQ • OLLAMA • LORA • QLORA • PYTORCH • TENSORFLOW •
+                SCIKIT-LEARN • HUGGING FACE • MLFLOW • AIRFLOW • DOCKER • K8S • TERRAFORM • JENKINS • FASTAPI • FLASK •
+                SPRING BOOT • REACT • NODE.JS • SQL • MONGODB • KAFKA • SPARK • HADOOP • TABLEAU • POWERBI •
+                LANGCHAIN • LANGGRAPH • RAG • AWS • NEO4J • GROQ • OLLAMA • LORA • QLORA • PYTORCH • TENSORFLOW •
+                SCIKIT-LEARN • HUGGING FACE • MLFLOW • AIRFLOW • DOCKER • K8S • TERRAFORM • JENKINS • FASTAPI • FLASK •
+                SPRING BOOT • REACT • NODE.JS • SQL • MONGODB • KAFKA • SPARK • HADOOP • TABLEAU • POWERBI •
+            </div>
+        </div>
+    </div>
+
+    <!-- SECTION 4: PROJECTS (MISSIONS) -->
+    <section id="projects" class="cyber-section">
+        <div class="content-wrapper">
+            <h2 class="section-header right-align">
+                MISSIONS <span class="slash">//</span> 02
+            </h2>
+
+            <div class="mission-stack">
+                <!-- Mission 1 -->
+                <div class="mission-card" data-tilt>
+                    <div class="card-border"></div>
+                    <div class="mission-rank">S-RANK</div>
+                    <div class="mission-content">
+                        <h3>PHISHING PROTOCOL (MLOPS)</h3>
+                        <p class="mission-desc">
+                            Architected an automated MLOps pipeline to evaluate SVM, Logistic Regression, and Gradient
+                            Boosting models.
+                            Streamlined feature selection to achieve an <strong>0.98 F1-score</strong> and eliminate
+                            training bottlenecks.
+                            Engineered robust CI/CD workflow via GitHub Actions and Docker for AWS EC2 deployment.
+                        </p>
+                        <ul class="mission-specs">
+                            <li>PYTHON</li>
+                            <li>AIRFLOW</li>
+                            <li>MLFLOW</li>
+                            <li>AWS</li>
+                            <li>DOCKER</li>
+                        </ul>
+                        <div class="mission-links">
+                            <a href="https://github.com/marutikameshwar/phishing-website-detection"
+                                target="_blank">ACCESS_CODE <i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Mission 2 -->
+                <div class="mission-card" data-tilt>
+                    <div class="card-border"></div>
+                    <div class="mission-rank">A-RANK</div>
+                    <div class="mission-content">
+                        <h3>MULTI-AGENT RAG SYSTEM</h3>
+                        <p class="mission-desc">
+                            Orchestrated a multi-agent framework using <strong>LangGraph</strong> to route queries
+                            between private data and public search.
+                            Overcame static LLM limits via specialized agents for high response accuracy.
+                            Developed retrieval engine using Hugging Face and ChromaDB.
+                        </p>
+                        <ul class="mission-specs">
+                            <li>LANGGRAPH</li>
+                            <li>CHROMA</li>
+                            <li>GROQ</li>
+                            <li>HUGGING FACE</li>
+                        </ul>
+                        <div class="mission-links">
+                            <a href="https://github.com/marutikameshwar/multi-agent-rag-system-langgraph"
+                                target="_blank">ACCESS_CODE <i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Mission 3 -->
+                <div class="mission-card" data-tilt>
+                    <div class="card-border"></div>
+                    <div class="mission-rank">S-RANK</div>
+                    <div class="mission-content">
+                        <h3>NATURAL LANGUAGE SQL AGENT</h3>
+                        <p class="mission-desc">
+                            Designed a RAG-based SQL agent via <strong>LangChain</strong> for a Student Database.
+                            Optimized query accuracy through systematic LangSmith tracing.
+                            Integrated <strong>Llama-3 (Groq)</strong> for low-latency streaming inference
+                            (Instant-Reply).
+                        </p>
+                        <ul class="mission-specs">
+                            <li>LLAMA-3</li>
+                            <li>LANGCHAIN</li>
+                            <li>LANGSMITH</li>
+                            <li>SQL</li>
+                        </ul>
+                        <div class="mission-links">
+                            <a href="https://github.com/marutikameshwar/gen-ai-sql-chat" target="_blank">ACCESS_CODE <i
+                                    class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Mission 4: OncoCare -->
+                <div class="mission-card" data-tilt>
+                    <div class="card-border"></div>
+                    <div class="mission-rank">S-RANK</div>
+                    <div class="mission-content">
+                        <h3>ONCOCARE (MED-AI)</h3>
+                        <p class="mission-desc">
+                            Developed a Gemini-powered application using <strong>Streamlit</strong> that ingests
+                            multiple
+                            medical files (PET scans, blood reports) to generate a cancer status summary.
+                            Provides comprehensive health reports, diet recommendations, and medication plans to enhance
+                            clinical decision support.
+                        </p>
+                        <ul class="mission-specs">
+                            <li>PYTHON</li>
+                            <li>GEMINI-PRO</li>
+                            <li>STREAMLIT</li>
+                            <li>MEDICAL-AI</li>
+                        </ul>
+                        <div class="mission-links">
+                            <a href="https://github.com/marutikameshwar/OncoCare" target="_blank">ACCESS_CODE <i
+                                    class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Mission 5: Web Research Agent -->
+                <div class="mission-card" data-tilt>
+                    <div class="card-border"></div>
+                    <div class="mission-rank">A-RANK</div>
+                    <div class="mission-content">
+                        <h3>WEB RESEARCH ASSISTANT</h3>
+                        <p class="mission-desc">
+                            Designed an LLM-driven assistant using <strong>LangChain Agents</strong> and Llama-3 to
+                            search across ArXiv, Wikipedia, and DuckDuckGo.
+                            Integrated real-time streaming responses, session-based chat memory, and transparent agent
+                            reasoning.
+                        </p>
+                        <ul class="mission-specs">
+                            <li>LANGCHAIN</li>
+                            <li>LLAMA-3</li>
+                            <li>STREAMLIT</li>
+                            <li>DUCKDUCKGO</li>
+                        </ul>
+                        <div class="mission-links">
+                            <a href="https://github.com/marutikameshwar/web-search-with-history"
+                                target="_blank">ACCESS_CODE <i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Mission 6: PDF RAG -->
+                <div class="mission-card" data-tilt>
+                    <div class="card-border"></div>
+                    <div class="mission-rank">A-RANK</div>
+                    <div class="mission-content">
+                        <h3>CONVERSATIONAL RAG ASSISTANT</h3>
+                        <p class="mission-desc">
+                            Developed a RAG app using <strong>ChromaDB</strong> and Hugging Face embeddings for Q&A over
+                            uploaded PDFs.
+                            Implemented chat-history-aware retrieval and session-based memory with Groq LLMs for
+                            context-preserving follow-up questions.
+                        </p>
+                        <ul class="mission-specs">
+                            <li>AGENTS</li>
+                            <li>CHROMA</li>
+                            <li>HUGGING FACE</li>
+                            <li>GROQ</li>
+                        </ul>
+                        <div class="mission-links">
+                            <a href="https://github.com/marutikameshwar/rag-with-pdf-agent" target="_blank">ACCESS_CODE
+                                <i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Mission 7: Lung Disease CNN -->
+                <div class="mission-card" data-tilt>
+                    <div class="card-border"></div>
+                    <div class="mission-rank">B-RANK</div>
+                    <div class="mission-content">
+                        <h3>LUNG DISEASE DETECTION (CNN)</h3>
+                        <p class="mission-desc">
+                            Engineered a PyTorch-based CNN to classify X-ray images for Pneumonia, Tuberculosis, and
+                            COVID-19.
+                            Fine-tuned <strong>ResNet-50</strong> achieving <strong>97.15% accuracy</strong>.
+                            Managed a 1.81 GB dataset, applying preprocessing like resizing and grayscale conversion.
+                        </p>
+                        <ul class="mission-specs">
+                            <li>PYTORCH</li>
+                            <li>RESNET-50</li>
+                            <li>CNN</li>
+                            <li>COMPUTER VISION</li>
+                        </ul>
+                        <div class="mission-links">
+                            <a href="https://github.com/marutikameshwar/Lung-Disease-classification-using-CNN"
+                                target="_blank">ACCESS_CODE <i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Mission 8: Diabetes Pipeline -->
+                <div class="mission-card" data-tilt>
+                    <div class="card-border"></div>
+                    <div class="mission-rank">B-RANK</div>
+                    <div class="mission-content">
+                        <h3>DIABETES PREDICTION PIPELINE</h3>
+                        <p class="mission-desc">
+                            Built a reproducible, end-to-end ML pipeline using <strong>DVC</strong> and DagsHub for
+                            automated predictions.
+                            Tuned RandomForestClassifier via GridSearchCV, achieving <strong>0.92 accuracy</strong>.
+                            Logged metrics/artifacts with MLflow for full traceability.
+                        </p>
+                        <ul class="mission-specs">
+                            <li>DVC</li>
+                            <li>MLFLOW</li>
+                            <li>SKLEARN</li>
+                            <li>DAGSHUB</li>
+                        </ul>
+                        <div class="mission-links">
+                            <a href="https://github.com/marutikameshwar/diabeties-pred-with-dvc-mlfow-scikitlearn"
+                                target="_blank">ACCESS_CODE <i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 5: EXPERIENCE (CHRONICLES) -->
+    <section id="experience" class="cyber-section dark-mode">
+        <div class="content-wrapper">
+            <h2 class="section-header">
+                03 <span class="slash">//</span> CHRONICLES
+            </h2>
+            <div class="timeline-cyber">
+                <!-- EDU 1: UMD -->
+                <div class="time-entry edu-entry">
+                    <div class="time-marker"></div>
+                    <div class="time-date">AUG 2024 - MAY 2026 (EXP)</div>
+                    <div class="time-content">
+                        <h4>UNIVERSITY OF MARYLAND</h4>
+                        <span class="role-badge">MS IN DATA SCIENCE</span>
+                        <ul class="xp-list">
+                            <li>GPA: <strong>3.92 / 4.0</strong></li>
+                            <li>Focus: Machine Learning, Data Mining, Natural Language Processing.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- XP 1: Bajaj Full Time -->
+                <div class="time-entry">
+                    <div class="time-marker"></div>
+                    <div class="time-date">JUL 2023 - AUG 2024</div>
+                    <div class="time-content">
+                        <h4>BAJAJ FINSERV DIRECT LTD</h4>
+                        <span class="role-badge">SOFTWARE ENGINEER</span>
+                        <ul class="xp-list">
+                            <li>Re-engineered a normalized <strong>PostgreSQL</strong> database architecture and
+                                indexing strategy, achieving a <strong>40% improvement</strong> in query performance.
+                            </li>
+                            <li>Engineered a real-time <strong>Java analytics dashboard</strong> with JPA/Hibernate,
+                                reducing manual reporting effort by 30%.</li>
+                            <li>Conducted A/B testing on user onboarding flows, resulting in a <strong>15%
+                                    increase</strong> in user conversion.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- XP 2: Bajaj Intern -->
+                <div class="time-entry">
+                    <div class="time-marker"></div>
+                    <div class="time-date">JAN 2023 - JUN 2023</div>
+                    <div class="time-content">
+                        <h4>BAJAJ FINSERV DIRECT LTD</h4>
+                        <span class="role-badge">SOFTWARE ENGINEER INTERN</span>
+                        <ul class="xp-list">
+                            <li>Built an asynchronous rapid onboarding pipeline using <strong>Java Spring Boot</strong>
+                                and <strong>AWS SQS/SNS</strong>, reducing latency by 60%.</li>
+                            <li>Architected a Bulk Upload feature via AWS S3, eliminating 95% of manual data entry
+                                errors.</li>
+                            <li>Streamlined deployment by resolving 450+ technical debt issues and maintaining 99.9%
+                                system uptime via CI/CD pipelines.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- EDU 2: VIT -->
+                <div class="time-entry edu-entry">
+                    <div class="time-marker"></div>
+                    <div class="time-date">AUG 2019 - JUL 2023</div>
+                    <div class="time-content">
+                        <h4>VELLORE INSTITUTE OF TECHNOLOGY</h4>
+                        <span class="role-badge">B.TECH COMPUTER SCIENCE</span>
+                        <ul class="xp-list">
+                            <li>GPA: <strong>8.65 / 10.0</strong></li>
+                            <li>Core: Data Structures, Algorithms, DBMS, Operating Systems.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Genesis Button -->
+            <div class="timeline-footer" style="text-align: center; margin-top: 4rem; position: relative;">
+                <div class="glitch-wrapper-small">
+                    <button id="genesis-btn" class="genesis-trigger genesis-glitch" title="DECRYPT_ARCHIVE"
+                        data-text="[ ⚠ ] CLASSIFIED_ARCHIVE">
+                        [ ⚠ ] CLASSIFIED_ARCHIVE
+                    </button>
+                </div>
+                <div class="recruiter-hint">// AUTHORIZED_PERSONNEL_ONLY</div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- SECTION 6: TRANSMISSION (CONTACT FORM) -->
+    <section id="transmission" class="cyber-section contact-section">
+        <div class="content-wrapper">
+            <h2 class="section-header">
+                04 <span class="slash">//</span> UPLINK
+            </h2>
+
+            <!-- Dual Panel Layout -->
+            <div class="uplink-grid">
+                <!-- Mission Briefing Panel -->
+                <div class="mission-briefing">
+                    <div class="briefing-header">
+                        <span class="status-indicator"></span>
+                        MISSION BRIEFING
+                    </div>
+                    <div class="briefing-content">
+                        <p class="briefing-text">
+                            <span class="terminal-prompt">&gt;</span> SECURE CHANNEL ESTABLISHED<br>
+                            <span class="terminal-prompt">&gt;</span> ENCRYPTION: <span
+                                class="highlight">AES-256</span><br>
+                            <span class="terminal-prompt">&gt;</span> STATUS: <span class="status-ready">AWAITING YOUR
+                                TRANSMISSION</span><br>
+                            <span class="terminal-prompt">&gt;</span> <span class="highlight">WARNING:</span>
+                            <span style="color: var(--secondary);">SYSTEM DEFENSE PROTOCOL ACTIVE</span>
+                        </p>
+                        <div class="mission-stats">
+                            <div class="stat-item">
+                                <span class="stat-label">RESPONSE TIME</span>
+                                <span class="stat-value">&lt; 24H</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-label">SUCCESS RATE</span>
+                                <span class="stat-value">100%</span>
+                            </div>
+                        </div>
+                        <div class="mission-objective">
+                            <i class="fas fa-shield-alt"></i>
+                            <span>Submit form to activate <strong>System Defense Protocol</strong>. Something
+                                special
+                                awaits... 🎮</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Enhanced Terminal Form -->
+                <div class="transmission-terminal">
+                    <div class="terminal-header">
+                        <div class="terminal-dots">
+                            <span class="dot red"></span>
+                            <span class="dot yellow"></span>
+                            <span class="dot green"></span>
+                        </div>
+                        <span class="terminal-title">ENCRYPTED_CHANNEL.EXE</span>
+                        <span class="security-badge">
+                            <i class="fas fa-lock"></i> SECURED
+                        </span>
+                    </div>
+
+                    <form class="cyber-form" id="contactForm" action="https://formsubmit.co/marutikameshwar1@gmail.com"
+                        method="POST">
+                        <!-- FormSubmit Configuration -->
+                        <input type="hidden" name="_captcha" value="false">
+                        <input type="hidden" name="_template" value="table">
+                        <input type="hidden" name="_subject" value="New Transmission from Portfolio Uplink">
+                        <input type="hidden" name="_next" value="http://localhost:8000/"> <!-- Fallback redirection -->
+
+                        <div class="input-group">
+                            <label for="name">IDENTITY_STRING:</label>
+                            <input type="text" id="name" name="name" placeholder="ENTER NAME..." required>
+                            <span class="input-border"></span>
+                            <span class="scan-line"></span>
+                        </div>
+
+                        <div class="input-group">
+                            <label for="email">RETURN_ADDRESS:</label>
+                            <input type="email" id="email" name="email" placeholder="ENTER EMAIL..." required>
+                            <span class="input-border"></span>
+                            <span class="scan-line"></span>
+                        </div>
+
+                        <div class="input-group">
+                            <label for="message">DATA_PACKET:</label>
+                            <textarea id="message" name="message" rows="5" placeholder="ENTER MESSAGE..."
+                                required></textarea>
+                            <span class="input-border"></span>
+                            <span class="scan-line"></span>
+                        </div>
+
+                        <button type="submit" class="cyber-btn submit-btn">
+                            <span class="btn-text">TRANSMIT_DATA()</span>
+                            <span class="btn-glow"></span>
+                        </button>
+
+                        <div class="status-message" id="statusMessage">
+                            <span class="terminal-prompt">&gt;</span> UPLOADING...
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER (SIGNAL) -->
+    <footer id="contact" class="cyber-section footer-section">
+        <div class="content-wrapper centered">
+            <h2 class="section-header">ESTABLISH_LINK?</h2>
+            <div class="contact-terminal">
+                <p>> INITIATING HANDSHAKE PROTOCOL...</p>
+                <p>> TARGET: MARUTI KAMESHWAR MODALI</p>
+                <p>> LOCATION: COLLEGE PARK, MD</p>
+                <p>> CONTACT: +1 240-501-7790</p>
+                <p>> STATUS: READY TO RELOCATE</p>
+
+                <div class="social-grid">
+                    <a href="mailto:marutikameshwar1@gmail.com" class="social-tile email">
+                        <i class="fas fa-envelope"></i>
+                        <span>marutikameshwar1@gmail.com</span>
+                    </a>
+                    <a href="https://linkedin.com/in/maruti-kameshwar-modali" class="social-tile linkedin">
+                        <i class="fab fa-linkedin"></i>
+                        <span>LINKEDIN</span>
+                    </a>
+                    <a href="https://github.com/marutikameshwar" class="social-tile github">
+                        <i class="fab fa-github"></i>
+                        <span>GITHUB</span>
+                    </a>
+                </div>
+            </div>
+            <div class="copyright">
+                SYSTEM_ID: MK_V3.0 // CODED BY MARUTI KAMESHWAR // 2024
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
