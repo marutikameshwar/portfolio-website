@@ -298,6 +298,26 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 
+    // 7. Mobile Navigation Toggle
+    const mobileNavToggle = document.querySelector('.mobile-nav-toggle');
+    const hudLinks = document.querySelector('.hud-links');
+
+    if (mobileNavToggle && hudLinks) {
+        mobileNavToggle.addEventListener('click', () => {
+            mobileNavToggle.classList.toggle('active');
+            hudLinks.classList.toggle('active');
+        });
+
+        // Close menu when a link is clicked
+        const navLinks = document.querySelectorAll('.hud-link');
+        navLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                mobileNavToggle.classList.remove('active');
+                hudLinks.classList.remove('active');
+            });
+        });
+    }
+
 }); // END DOM CONTENT LOADED
 
 /* --- FUNCTIONS OUTSIDE DOM CONTENT LOADED --- */

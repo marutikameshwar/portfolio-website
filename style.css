@@ -1678,56 +1678,274 @@ body {
 
 /* RESPONSIVE */
 @media (max-width: 768px) {
-    .section-header {
-        font-size: 2.5rem;
+
+    /* --- TYPOGRAPHY SCALING --- */
+    html {
+        font-size: 14px;
     }
 
+    .section-header {
+        font-size: 2.5rem;
+        word-wrap: break-word;
+    }
+
+    .cyber-section {
+        padding: 4rem 1.5rem;
+    }
+
+    /* --- HERO --- */
     .hero-container {
         margin-left: 0;
+        text-align: center;
+        padding-top: 2rem;
     }
 
     .glitch {
-        font-size: 3rem;
+        font-size: 2.8rem;
     }
 
+    .subtitle-box {
+        transform: skew(0deg);
+        margin-top: 1rem;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: fit-content;
+    }
+
+    .subtitle-box span {
+        transform: skew(0deg);
+    }
+
+    .mission-brief {
+        font-size: 0.95rem;
+        text-align: left;
+    }
+
+    /* --- NAVIGATION HAMBURGER --- */
+    .mobile-nav-toggle {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 30px;
+        height: 25px;
+        background: transparent;
+        border: none;
+        cursor: pointer;
+        z-index: 1002;
+    }
+
+    .mobile-nav-toggle .bar {
+        width: 100%;
+        height: 3px;
+        background-color: var(--accent);
+        border-radius: 2px;
+        transition: 0.3s;
+    }
+
+    /* Animate Hamburger to X */
+    .mobile-nav-toggle.active .bar:nth-child(1) {
+        transform: rotate(45deg) translate(5px, 6px);
+    }
+
+    .mobile-nav-toggle.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .mobile-nav-toggle.active .bar:nth-child(3) {
+        transform: rotate(-45deg) translate(5px, -6px);
+    }
+
+    .hud-nav {
+        flex-direction: row;
+        /* Keep logo and hamburger in row */
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem 1.5rem;
+        background: rgba(18, 17, 22, 0.98);
+        position: fixed;
+        width: 100%;
+        z-index: 1000;
+        gap: 0;
+    }
+
+    .hud-logo {
+        margin-right: 0;
+        font-size: 1.2rem;
+        z-index: 1002;
+        /* Above menu overlay */
+    }
+
+    .hud-links {
+        position: fixed;
+        top: 0;
+        right: -100%;
+        /* Hidden by default */
+        width: 70%;
+        height: 100vh;
+        background: rgba(10, 10, 15, 0.98);
+        border-left: 1px solid var(--primary);
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        transition: 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+        z-index: 1001;
+        box-shadow: -10px 0 30px rgba(0, 0, 0, 0.5);
+        margin-right: 0;
+        gap: 2rem;
+    }
+
+    .hud-links.active {
+        right: 0;
+    }
+
+    .hud-link {
+        font-size: 1.2rem;
+        padding: 1rem 0;
+        width: 100%;
+        text-align: center;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    }
+
+    .resume-container {
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 2rem;
+
+        display: block;
+    }
+
+    /* --- PROFILE & ABOUT --- */
     .profile-card {
         flex-direction: column;
+        padding: 1.5rem;
+        gap: 2rem;
     }
 
     .profile-visual {
         border-right: none;
-        border-bottom: 1px dashed white;
+        border-bottom: 1px dashed var(--text-gray);
+        padding-right: 0;
         padding-bottom: 2rem;
-        margin-bottom: 2rem;
+        margin-bottom: 0;
+        width: 100%;
     }
 
-    .skill-grid {
-        grid-template-columns: 1fr;
-        gap: 1rem;
+    .profile-photo {
+        width: 140px;
+        height: 140px;
+    }
+
+    .stats-box {
+        max-width: 300px;
+    }
+
+    /* Skill Matrix Scroll */
+    .ops-tabs {
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        padding-bottom: 5px;
+    }
+
+    .ops-tab {
+        padding: 0.8rem 1rem;
+        font-size: 0.8rem;
+    }
+
+    /* --- TIMELINE ADJUSTMENTS --- */
+    .timeline-cyber {
+        border-left: 2px solid var(--text-gray);
+        padding-left: 2.5rem;
+        margin-left: 0.5rem;
+    }
+
+    .time-marker {
+        left: -3.2rem;
+        width: 1.2rem;
+        height: 1.2rem;
+    }
+
+    .time-content {
+        padding: 1.2rem;
+    }
+
+    .time-date {
+        font-size: 0.9rem;
+    }
+
+    /* --- PROJECTS (MISSIONS) --- */
+    .mission-card {
+        padding: 1.5rem;
     }
 
     .mission-card:nth-child(even) {
         text-align: left;
+        border-right: none;
         border-left: 10px solid var(--accent);
+    }
+
+    .mission-card .card-border {
+        /* Ensure border visual consistency */
+    }
+
+    .mission-rank {
+        font-size: 3rem;
+        top: 0.5rem;
+        right: 1rem;
+        opacity: 0.1;
+    }
+
+    .mission-specs {
+        flex-wrap: wrap;
+        margin-top: 1.5rem;
+    }
+
+    .mission-card:nth-child(even) .mission-specs {
+        justify-content: flex-start;
+    }
+
+    /* --- MARQUEE FIX --- */
+    .marquee-section {
+        width: 100%;
+        margin-left: 0;
+        transform: rotate(0deg);
+        border-left: none;
         border-right: none;
     }
 
-    /* Uplink Grid - Stack on Mobile/Tablet */
+    .marquee-content {
+        font-size: 1rem;
+    }
+
+    /* --- CONTACT & FOOTER --- */
     .uplink-grid {
         grid-template-columns: 1fr;
         gap: 2rem;
+        margin-top: 1rem;
     }
 
-    .briefing-content {
-        padding: 1.2rem 1rem;
-    }
-
+    .briefing-content,
     .cyber-form {
-        padding: 1.5rem 1rem;
+        padding: 1.2rem;
     }
 
-    .mission-stats {
-        gap: 0.8rem;
+    .status-message {
+        width: 90%;
+        font-size: 1.2rem;
+    }
+
+    .social-grid {
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+
+    /* --- GENESIS BUTTON --- */
+    .genesis-trigger {
+        font-size: 0.8rem;
+        padding: 0.8rem 1rem;
+        width: 100%;
+        max-width: 300px;
     }
 }
 
