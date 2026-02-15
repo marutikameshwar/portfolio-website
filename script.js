@@ -534,7 +534,7 @@ function initiateDownload(btn) {
     setTimeout(() => {
         // Create dummy link to trigger download
         const link = document.createElement('a');
-        link.href = 'resume.pdf'; // Ensure this file exists in root
+        link.href = 'Maruti_kameshwar_Modali.pdf'; // Updated to new resume
         link.download = 'Maruti_Kameshwar_Resume.pdf';
         document.body.appendChild(link);
         link.click();
