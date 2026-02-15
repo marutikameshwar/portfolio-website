@@ -513,11 +513,7 @@ function initiateDownload(btn) {
     const originalText = btn.querySelector('.text').innerText;
     const icon = btn.querySelector('.icon');
 
-    // 0. Scroll to Transmission Section
-    const transmissionSection = document.getElementById('transmission');
-    if (transmissionSection) {
-        transmissionSection.scrollIntoView({ behavior: 'smooth' });
-    }
+
 
     // 1. Change State to Downloading
     btn.classList.add('downloading');
